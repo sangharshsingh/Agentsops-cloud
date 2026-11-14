@@ -1,0 +1,29 @@
+# Python virtual environments
+myenv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
+
+# Local databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
